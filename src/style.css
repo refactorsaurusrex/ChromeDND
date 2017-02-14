@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 90%;
+  max-width: 400px;
+  white-space: nowrap;
+}
+
+.title {
+  color: gray;
+}
+
+.dnd-popup {
+
+}
+
+ul.dnd-times {
+  color: black;
+}
+
+ul.dnd-times li:hover {
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  display: inline-block;
+  width: 75px;
+  margin: 2px;
+  border-style: groove;
+}
+
+ul.dnd-times {
+  padding-left: 3px;
+  margin: 10px 0;
+  list-style: none;
+}
+
+ul.dnd-times li {
+  margin: 0;
+  padding: 3px 10px;
+  border-radius: 3px
+}
