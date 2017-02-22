@@ -6,7 +6,7 @@
   "version": "0.1",
 
   "browser_action": {
-    "default_icon": "bell-16.png",
+    "default_icon": "images/bell-gray-16.png",
     "default_popup": "snooze.html"
   },
   "permissions": [
@@ -18,8 +18,8 @@
     "persistent": false
   },
   "icons": {
-    "16": "bell-16.png",
-    "32": "bell-32.png",
-    "128": "bell-128.png"
+    "16": "images/bell-16.png",
+    "32": "images/bell-32.png",
+    "128": "images/bell-128.png"
   }
 }
