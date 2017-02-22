@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Do Not Disturb</title>
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="snooze.js" defer></script>
+  </head>
+  <body>
+    <div class="dnd-active">
+      <div class="active-header">
+        <img src="images/sleep.png" />
+        <p>Do Not Disturb is <strong>ON</strong></p>
+        <p><strong id="time-remaining">?</strong> Remaining</p>
+      </div>
+      <div class="indent">
+        <p id="dnd-end">Turn <strong>OFF</strong></p>
+      </div>
+      <hr />
+      <div class="indent">
+        <div class="title">Change Snooze Time...</div>
+        <ul class="dnd-options">
+          <li class="dnd-start" data-snooze="20">20 Minutes</li>
+          <li class="dnd-start" data-snooze="60">1 Hour</li>
+          <li class="dnd-start" data-snooze="120">2 Hours</li>
+          <li class="dnd-start" data-snooze="240">4 Hours</li>
+          <li class="dnd-start" data-snooze="480">8 Hours</li>
+          <li class="dnd-start" data-snooze="1440">24 Hours</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
