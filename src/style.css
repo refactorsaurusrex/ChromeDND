@@ -1,43 +1,81 @@
 body {
   font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
   font-size: 90%;
-  max-width: 400px;
+  width: 275px;
   white-space: nowrap;
+  margin: 0;
 }
 
 .title {
   color: gray;
 }
 
-.dnd-popup {
-
-}
-
-ul.dnd-times {
+ul.dnd-options {
   color: black;
+  padding-left: 3px;
+  margin: 5px 0;
+  list-style: none;
 }
 
-ul.dnd-times li:hover {
+#dnd-end {
+  padding: 3px 5px;
+  border-radius: 3px
+}
+
+#dnd-end:hover {
   background-color: skyblue;
   color: white;
   cursor: pointer;
 }
 
+li.dnd-start:hover {
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+}
+
+li.dnd-start {
+  margin: 0;
+  padding: 3px 5px;
+  border-radius: 3px
+}
+
 hr {
-  display: inline-block;
-  width: 75px;
-  margin: 2px;
   border-style: groove;
 }
 
-ul.dnd-times {
-  padding-left: 3px;
-  margin: 10px 0;
-  list-style: none;
+.active-header {
+  padding: 15px 10px;
+  background-color: black;
+  color: white;
 }
 
-ul.dnd-times li {
-  margin: 0;
+.active-header img {
+  float: right;
+  position: relative;
+  top: -5px;
+}
+
+.active-header p {
+  margin: 5px;
+}
+
+.indent {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+.inactive-header {
   padding: 3px 10px;
-  border-radius: 3px
+  background-color: white;
+  color: black;
+}
+
+.inactive-header img {
+  float: right;
+}
+
+.inactive-header p {
+  margin: 5px;
 }

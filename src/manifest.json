@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_icon": "images/bell-gray-16.png",
-    "default_popup": "snooze.html"
+    "default_popup": "dnd-inactive.html"
   },
   "permissions": [
     "contentSettings",
