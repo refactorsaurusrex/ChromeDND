@@ -3,7 +3,7 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 
     chrome.contentSettings['notifications'].set({
       'primaryPattern': '<all_urls>',
-      'setting': 'allow'
+      'setting': 'ask'
     });
 
     chrome.browserAction.setIcon({path: 'images\\bell-gray-16.png'});
