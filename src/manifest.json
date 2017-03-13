@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Chrome Do Not Disturb",
-  "version": "0.3",
+  "version": "0.4",
 
   "description": "Hit the snooze button on your Chrome desktop notifications!",
   "icons": {
@@ -22,5 +22,5 @@
     "scripts": ["eventPage.js"],
     "persistent": false
   },
-  "version_name": "0.3 beta"
+  "version_name": "0.4 beta"
 }
