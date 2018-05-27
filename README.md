@@ -1,4 +1,7 @@
-# ChromeDND
+# Chrome Do Not Disturb
+Hit the snooze button on your Chrome desktop notifications!
 
-## Known Issues
-- The browser icon fails to update when turning DND on/off in quick succession. As long as you wait 2 - 3 seconds to enable DND after disabling it, or vise versa, the icon will update correctly.
+# Installation & Production Info
+For more information, check out ChromeDND in the [Chrome Web Store][store].
+
+[store]: https://chrome.google.com/webstore/detail/kidgbjjjkhkickaakajjpgdkcfnidphn
