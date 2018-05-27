@@ -13,11 +13,8 @@ function activateSnooze() {
 }
 
 function endSnooze() {
-  chrome.contentSettings['notifications'].set({
-    'primaryPattern': '<all_urls>',
-    'setting': 'allow'
-  });
-
+  chrome.contentSettings['notifications'].clear({ });
+  chrome.notifications.create({ })
   chrome.browserAction.setIcon({path: 'images\\bell-gray-16.png'});
   chrome.browserAction.setPopup({popup: 'dnd-inactive.html'});
   window.close();
