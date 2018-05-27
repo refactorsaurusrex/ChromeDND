@@ -16,7 +16,8 @@
   },
   "permissions": [
     "contentSettings",
-    "alarms"
+    "alarms",
+    "notifications"
   ],
   "background": {
     "scripts": ["eventPage.js"],
