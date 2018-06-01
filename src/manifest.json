@@ -20,7 +20,10 @@
     "notifications"
   ],
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": [
+      "eventPage.js",
+      "snooze.js"
+    ],
     "persistent": false
   },
   "version_name": "0.5.1 beta"
